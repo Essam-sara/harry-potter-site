@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100hv;
+}
+body
+{
+    background-image: url('image/39587114-library-wallpapers.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative; 
+
+
+
+}
+
+
+body::before {
+    content: '';
+     position: absolute; 
+    top: 0;
+    left: 0;
+     width: 100%;
+     height: 0%;  
+    background-color: rgba(0, 0, 0, 0.73); 
+    
+}
+
+.listitem 
+{
+    
+     position: absolute; 
+     z-index: 2;  
+    list-style-type: none;
+    margin:10px ;
+    display: inline-flex;
+    width: 100%; 
+
+}
+.listitem ul   {
+    
+    display: flex;
+    /* padding: 10px; */
+    gap:10;
+    
+    /* justify-content: space-around;  */
+     align-self: stretch; 
+    /* عرض كل عنصر يمتد بالكامل */
+     background-color: rgba(0, 0, 0, 0.944); 
+     transition: transform 0.3s ease; 
+}
+
+.listitem ul li
+{
+    display: inline-flex;
+}
+
+.listitem ul a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 8px 60px ; 
+margin-left: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.123);
+     /* height: 100px;  */
+     width: 100%;
+    font-size: 16;
+    transition: background-color 0.10s ease ,transform 0.3s ease;
+    list-style-type: none;
+}
+.listitem .Signup{
+    background-color: red;
+    /* padding: px px; */
+    /* padding: 30px 15px; */
+    border-radius: 80px;
+    text-align: center;
+
+}
+.Signup:hover{
+    background-color: blueviolet;
+}
+.listitem .login{
+    background-color: red;
+
+    border-radius: 100px;
+    text-align: center;
+
+}
+.login:hover{
+    background-color: blueviolet;
+}
+.News:hover{
+    background-color: red;
+}
+
+.maininterface 
+{
+    display: inline-flex;
+    margin-top:250px ;
+    position: relative;
+}
+.card1 .specificcard
+{
+    display: flex;
+    
+    border-radius: 8px;
+   
+    width: 230px;
+}
+.card1 .rightimage
+{
+    padding: 40px;
+    flex-direction: column;
+    background-color: #000000;
+        width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.card1 .leftimage
+{padding: 40px;
+    flex-direction: column;
+    background-color: #000000;
+width: 100%;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+
+.maininterface 
+{
+    display: inline-flex;
+    margin-top:250px ;
+    position: relative;
+}
+.card2 .specificcard
+{
+    display: inline-flex;
+    border-radius: 8px;
+    width: 230px;
+    margin-top: 257px;
+    margin-left: 300px;
+    
+}
+.card2 .rightimage
+{
+    padding: 40px;
+    flex-direction: row;
+    background-color: #000000;
+        width: 100%;
+       
+    border-radius: 10px;
+
+}
+
+
+.card2 .leftimage
+{padding: 40px;
+    flex-direction: row;
+    background-color: #000000;
+width: 100%;
+
+border-radius: 10px;
+
+}
+
+
+.maininterface 
+{
+    display: inline-flex;
+    margin-top:250px ;
+    position: relative;
+}
+.card3 .specificcard
+{
+    display: inline-flex;
+    border-radius: 8px;
+    width: 230px;
+    margin-top: 257px;
+    margin-left: 300px;
+    
+}
+.card3 .rightimage
+{
+    padding: 40px;
+    flex-direction: row;
+    background-color: #000000;
+        width: 100%;
+       
+    border-radius: 10px;
+
+}
+
+
+.card3 .leftimage
+{padding: 40px;
+    flex-direction: row;
+    background-color: #000000;
+width: 100%;
+
+border-radius: 10px;
+
+} 
+
+
+
